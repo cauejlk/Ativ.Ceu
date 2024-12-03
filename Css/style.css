@@ -1,7 +1,11 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header nav{
     display: flex;
     justify-content: space-between;
-    padding: 2vw 3vw 2vw 3vw;
+    padding: 2vw 0vw 2vw 3vw;
     font-size: 1.2rem;
     text-align: center;
 }
@@ -32,7 +36,7 @@ header ul li #contact{
 
 .persona{
     border-top: rgba(196, 196, 196, 1) solid 1px;
-    background-color:rgba(16, 144, 203, 0.1);
+    background-color:#1090CB1A;
     display: flex;
 }
 
@@ -54,7 +58,6 @@ header ul li #contact{
     line-height: 3.4vw;
     font-size: 3rem;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 3.5vw;
 }
 
@@ -96,4 +99,199 @@ header ul li #contact{
 
 .icons div.icons{
     display: flex;
+    padding: 0 0 0 9vw;
+    align-items: center;
+}
+.icons div{
+    padding: 0 0 0 10px;
+}
+
+
+.icons #web { 
+    border-radius: 20px;
+    padding: 12px 12px 9px 12px;
+    background-color: #EFEAFF;
+}
+
+.icons #sed{
+    border-radius: 20px;
+    padding: 12px 12px 9px 12px;
+    background-color:#ECFFDA;
+}
+
+.icons #vr{
+    border-radius: 20px;
+    padding: 12px 12px 9px 12px;
+    background-color:#DAE6FF ;
+}
+
+.icons #mobile{
+    border-radius: 20px;
+    padding: 12px 12px 9px 12px;
+    background-color: #FFE5DA;
+}
+
+.icons .subIcon{
+    padding: 10px 0 0 0;
+    color: #969696;
+    font-size: 0.9rem;
+}
+
+/*----------------------------
+        sec celular
+------------------------------*/
+
+.celular h2{
+    border-top: rgba(196, 196, 196, 1) solid 1px;
+    padding: 5vw 0 4vw 0;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.celular #top p{
+    text-align: center;
+    color: #969696;
+    padding: 0 33vw 5vw 33vw;
+}
+
+.celular #divUm, .celular #divDois{
+    align-items: center;
+    padding: 0 12vw 5vw 12vw;
+    display: flex;
+}
+
+
+.celular #divUm h3, .celular #divDois h3{
+
+    font-size: 2rem;
+    padding: 0 0 1.5vw 0;
+    font-weight: bold;
+
+}
+
+.celular #divUm span, .celular #divDois span{
+    color: #1090CB;
+}
+
+.celular #divUm p, .celular #divDois p{
+    color: #545454;
+    line-height: 1.3vw;
+}
+
+/*----------------------------
+        sec blocos
+------------------------------*/
+
+.blocos{
+    display: flex;
+    padding: 0 10vw 7vw 10vw;
+    text-align: center;
+}
+
+.blocos #um{
+    background-color: #F4F4F4;
+}
+
+.blocos #dois{
+    background-color: #1090CB;
+}
+
+.blocos #um, .blocos #dois{
+    padding: 2vw 4vw 2vw 4vw;
+    margin: 0 2vw 0 0;
+    border-radius: 20px;
+}
+
+.blocos #um h3, .blocos #dois h3{
+    font-size: 1.4rem;
+    padding: 0 6vw 2vw 6vw;
+    font-weight: bold;
+
+}
+
+.blocos #um p, .blocos #dois p{
+    color: #545454;
+    padding: 0 2vw 2vw 2vw;
+}
+
+.blocos #dois h3,.blocos #dois p{
+    color: white;
+}
+
+.blocos #um a,.blocos #dois a{
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
+
+.blocos #um a{
+    color: white;
+    background-color: #1090CB;
+}
+
+.blocos #dois a{
+    color: #1090CB;
+    background-color: white;
+}
+
+/*----------------------------
+        sec email
+------------------------------*/
+
+.email{
+    text-align: center;
+    background-color: #E8F4FA;
+    padding: 10vw 0 10vw 0;
+    font-size: 1.5rem;
+}
+
+.email h2{
+    padding: 0 39vw 0 39vw;
+}
+
+.email input#email{
+    border: none;
+    margin-top: 1vw;
+    padding: 15px 18vw 15px 1vw;
+    border-radius: 10px;
+}
+
+.email input#submit{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 15px 2vw 15px 2vw;
+    border-radius: 10px;
+}
+
+/*----------------------------
+        rodape
+------------------------------*/
+
+footer .flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 7vw;
+    border-bottom: rgba(196, 196, 196, 1) solid 1px;
+}
+
+footer div#um p{
+    color: #515151;
+    padding: 2vw 0 0 0;
+}
+
+footer div#dois p#us{
+    color: black;
+    padding: 0 0 2vw 0;
+}
+
+footer div#dois p{
+    color: #515151;
+    padding: 0 0 10px 0;
+}
+
+footer p#solo{
+    text-align: center;
+    color: #515151;
+    padding: 3vw 0 3vw 0;
 }
